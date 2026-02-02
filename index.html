@@ -1,10 +1,11 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Delights Hyderabad | A Little Bliss in Every Bite</title>
+    <!-- Favicon fix to prevent 404 warning -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍰</text></svg>">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -45,30 +46,6 @@
         box-shadow: 0 10px 20px rgba(78, 52, 46, 0.05);
       }
 
-      /* Drip Animation for Navbar */
-      .nav-link {
-        position: relative;
-        display: inline-block;
-      }
-
-      .nav-link::after {
-        content: '';
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        width: 12px;
-        height: 0;
-        background: var(--primary-pink);
-        border-radius: 0 0 10px 10px;
-        transform: translateX(-50%);
-        transition: height 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        z-index: 10;
-      }
-
-      .nav-link:hover::after {
-        height: 20px;
-      }
-
       /* Torn Paper Clip Path */
       .torn-edge {
         clip-path: polygon(
@@ -100,15 +77,6 @@
         z-index: 1;
         border-top: 1px solid rgba(0,0,0,0.03);
         border-bottom: 1px solid rgba(0,0,0,0.03);
-      }
-
-      /* Infinite Scroll Container Custom Scroll Fix */
-      .no-scrollbar::-webkit-scrollbar {
-        display: none;
-      }
-      .no-scrollbar {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
       }
 
       @keyframes pulse-soft {
