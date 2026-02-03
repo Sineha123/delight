@@ -1,7 +1,7 @@
 # 🍰 Delight Bakery
 
 <div align="center">
-  <img src="./download.png" alt="Delight Bakery Logo" width="120" height="120" style="border-radius: 50%; object-fit: cover;" />
+  <img src="./public/download.png" alt="Delight Bakery Logo" width="120" height="120" style="border-radius: 50%; object-fit: cover;" />
   <h3>A Little Bliss in Every Bite</h3>
   <p>Premium Home-Based Bakery in Hyderabad, Pakistan</p>
 </div>

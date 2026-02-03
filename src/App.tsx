@@ -155,7 +155,7 @@ const Navbar: React.FC<{ onOrder: () => void }> = ({ onOrder }) => (
     >
       <a href="#home" className="flex items-center gap-4 transition-transform hover:scale-105">
         <motion.div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg border-2 border-rose-100 p-2 pulse-logo">
-          <img src="./download.png" alt="Delights Logo" className="w-full h-full object-cover rounded-full" />
+          <img src="/download.png" alt="Delights Logo" className="w-full h-full object-cover rounded-full" />
         </motion.div>
         <h2 className="font-script text-2xl text-[#FF4D6D] hidden sm:block">Delights</h2>
       </a>
